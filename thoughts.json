@@ -1,91 +1,34 @@
 [
   {
-    id: 1,
-    title: "Why AI Needs Structure Before Scale",
-    date: "November 01, 2025",
-    readTime: "8 min read",
-    excerpt:
-      "Everyone is racing to scale their AI, but most are missing the foundational architecture. True scalability in AI isn't just about more GPUs; it's about structured data, asynchronous processing, and modular design.",
-    content: `
-      The AI industry has entered a phase of obsession with scaling — larger models, more GPUs, and exponential compute budgets.
-      But most systems aren’t designed for sustainable growth because they skip the structural foundation.
-
-      Scalable AI systems start not with size, but **with architecture**. Data pipelines need to be modular, asynchronous, and fault-tolerant.
-      Training pipelines should isolate preprocessing, fine-tuning, and inference, rather than bundle them into monolithic scripts.
-
-      The biggest bottleneck in scaling is rarely compute — it’s orchestration. The moment your data ingestion,
-      model registry, and deployment pipelines are decoupled, you enable true horizontal scalability.
-
-      In short: before you scale, structure. The systems that scale fastest are the ones architected to evolve.
-    `,
+    "id": 1,
+    "title": "Why AI Needs Structure Before Scale",
+    "date": "November 01, 2025",
+    "readTime": "8 min read",
+    "excerpt": "Everyone is racing to scale their AI, but most are missing the foundational architecture. True scalability in AI isn't just about more GPUs; it's about structured data, asynchronous processing, and modular design.",
+    "content": "The AI industry has entered a phase of obsession with scaling \u2014 larger models, more GPUs, and exponential compute budgets.\nBut most systems aren\u2019t designed for sustainable growth because they skip the structural foundation.\n\nScalable AI systems start not with size, but with architecture. Data pipelines need to be modular, asynchronous, and fault-tolerant.\nTraining pipelines should isolate preprocessing, fine-tuning, and inference, rather than bundle them into monolithic scripts.\n\nThe biggest bottleneck in scaling is rarely compute \u2014 it\u2019s orchestration. The moment your data ingestion,\nmodel registry, and deployment pipelines are decoupled, you enable true horizontal scalability.\n\nIn short: before you scale, structure. The systems that scale fastest are the ones architected to evolve."
   },
   {
-    id: 2,
-    title: "Designing Multi-Tenant Systems That Don't Break at Growth",
-    date: "October 22, 2025",
-    readTime: "6 min read",
-    excerpt:
-      "The choice between a shared database, sharding, or database-per-tenant has cascading consequences for cost, performance, and security. Here's a framework for making the right architectural decision from day one.",
-    content: `
-      Every SaaS product eventually faces the same question — how to manage multiple customers (tenants) efficiently
-      without compromising isolation, scalability, or cost.
-
-      There are three dominant patterns:
-      1. **Shared Database, Shared Schema** — simplest to manage but hardest to isolate.
-      2. **Shared Database, Isolated Schemas** — moderate isolation with good scaling trade-offs.
-      3. **Database per Tenant** — best for enterprise-grade isolation and performance, but more complex operationally.
-
-      A robust architecture often starts hybrid — small tenants share DBs, large ones get isolated.
-      This “tiered tenancy model” keeps infra costs predictable while enabling growth without re-architecture.
-
-      Growth-friendly SaaS systems are designed with migration in mind — making it easy to move a tenant between
-      database tiers seamlessly. Build that in early, and scale will never force a rewrite.
-    `,
+    "id": 2,
+    "title": "Designing Multi-Tenant Systems That Don't Break at Growth",
+    "date": "October 22, 2025",
+    "readTime": "6 min read",
+    "excerpt": "The choice between a shared database, sharding, or database-per-tenant has cascading consequences for cost, performance, and security. Here's a framework for making the right architectural decision from day one.",
+    "content": "Every SaaS product eventually faces the same question \u2014 how to manage multiple customers (tenants) efficiently\nwithout compromising isolation, scalability, or cost.\n\nThere are three dominant patterns:\n1. Shared Database, Shared Schema \u2014 simplest to manage but hardest to isolate.\n2. Shared Database, Isolated Schemas \u2014 moderate isolation with good scaling trade-offs.\n3. Database per Tenant \u2014 best for enterprise-grade isolation and performance, but more complex operationally.\n\nA robust architecture often starts hybrid \u2014 small tenants share DBs, large ones get isolated.\nThis \u201ctiered tenancy model\u201d keeps infra costs predictable while enabling growth without re-architecture.\n\nGrowth-friendly SaaS systems are designed with migration in mind \u2014 making it easy to move a tenant between\ndatabase tiers seamlessly. Build that in early, and scale will never force a rewrite."
   },
   {
-    id: 3,
-    title: "The Future of Agentic Applications: Beyond Chatbots",
-    date: "October 15, 2025",
-    readTime: "7 min read",
-    excerpt:
-      "We've moved past simple Q&A. The next generation of software will be built on autonomous agents that can reason, plan, and execute complex tasks across multiple systems.",
-    content: `
-      Chatbots were the first wave. They talked, but they couldn’t *act*.
-      Agentic applications are the next evolution — systems that understand context, plan actions, and execute across APIs, data sources, and workflows.
-
-      An agentic architecture has three layers:
-      - **Perception Layer** — LLM or multimodal model that interprets intent.
-      - **Planning Layer** — reasoning engine or task manager that defines execution steps.
-      - **Action Layer** — tool integration layer that performs tasks.
-
-      The shift is from “ask and answer” to “ask and act”.
-      In enterprise SaaS, this means customer support agents that resolve issues automatically,
-      or scheduling systems that optimize themselves based on dynamic constraints.
-
-      The future of software is orchestration — not interaction.
-    `,
+    "id": 3,
+    "title": "The Future of Agentic Applications: Beyond Chatbots",
+    "date": "October 15, 2025",
+    "readTime": "7 min read",
+    "excerpt": "We've moved past simple Q&A. The next generation of software will be built on autonomous agents that can reason, plan, and execute complex tasks across multiple systems.",
+    "content": "Chatbots were the first wave. They talked, but they couldn\u2019t act.\nAgentic applications are the next evolution \u2014 systems that understand context, plan actions, and execute across APIs, data sources, and workflows.\n\nAn agentic architecture has three layers:\n- Perception Layer \u2014 LLM or multimodal model that interprets intent.\n- Planning Layer \u2014 reasoning engine or task manager that defines execution steps.\n- Action Layer \u2014 tool integration layer that performs tasks.\n\nThe shift is from \u201cask and answer\u201d to \u201cask and act\u201d.\nIn enterprise SaaS, this means customer support agents that resolve issues automatically,\nor scheduling systems that optimize themselves based on dynamic constraints.\n\nThe future of software is orchestration \u2014 not interaction."
   },
   {
-    id: 4,
-    title: "How Token Design Defines Security in Distributed Systems",
-    date: "October 05, 2025",
-    readTime: "5 min read",
-    excerpt:
-      "In a microservice ecosystem, your token (JWT) isn't just an auth key; it's a data-rich security contract. Designing its claims, scope, and expiry is a critical act of system architecture.",
-    content: `
-      A token isn’t just authentication — it’s *trust encapsulated in data*.
-
-      In distributed systems, each microservice relies on tokenized identity for authorization and traceability.
-      Poorly designed tokens create security holes, sync issues, or brittle inter-service contracts.
-
-      Key principles for robust token design:
-      1. **Explicit Scopes:** Define fine-grained permissions (read:users, write:billing, etc.).
-      2. **Minimal Claims:** Include only essential metadata — overloading leads to leaks.
-      3. **Short Expiry + Refresh Rotation:** Reduce window of compromise.
-      4. **Signed, Not Encrypted:** Use asymmetric signing (RSA/ECDSA) for validation across services.
-
-      Tokens are the nervous system of microservices.  
-      Their design decides whether your distributed system is resilient or fragile.
-    `,
-  },
+    "id": 4,
+    "title": "How Token Design Defines Security in Distributed Systems",
+    "date": "October 05, 2025",
+    "readTime": "5 min read",
+    "excerpt": "In a microservice ecosystem, your token (JWT) isn't just an auth key; it's a data-rich security contract. Designing its claims, scope, and expiry is a critical act of system architecture.",
+    "content": "A token isn\u2019t just authentication \u2014 it\u2019s trust encapsulated in data.\n\nIn distributed systems, each microservice relies on tokenized identity for authorization and traceability.\nPoorly designed tokens create security holes, sync issues, or brittle inter-service contracts.\n\nKey principles for robust token design:\n1. Explicit Scopes: Define fine-grained permissions (read:users, write:billing, etc.).\n2. Minimal Claims: Include only essential metadata \u2014 overloading leads to leaks.\n3. Short Expiry + Refresh Rotation: Reduce window of compromise.\n4. Signed, Not Encrypted: Use asymmetric signing (RSA/ECDSA) for validation across services.\n\nTokens are the nervous system of microservices. Their design decides whether your distributed system is resilient or fragile."
+  }
 ]
