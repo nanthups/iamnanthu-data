@@ -1,0 +1,18 @@
+{
+  "headline": "Building the next generation of intelligent SaaS systems.",
+  "bio": "I\u2019m a system architect and product builder focused on AI, automation, and multi-tenant SaaS platforms. My work blends design, data, and distributed systems to create scalable, human-centered technology.",
+  "skills": [
+    "System Architecture",
+    "AI Engineering",
+    "Full Stack Development",
+    "Cloud Infrastructure"
+  ],
+  "experience": [
+    {
+      "role": "Founder & Architect",
+      "company": "Folksio",
+      "period": "2023 \u2013 Present",
+      "summary": "Leading architecture, AI strategy, and system design for scalable SaaS and agentic applications."
+    }
+  ]
+}

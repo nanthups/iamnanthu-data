@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Why AI Needs Structure Before Scale",
+    "date": "November 01, 2025",
+    "excerpt": "Scalability starts with architecture, not GPUs.",
+    "content": "Everyone is racing to scale their AI, but most are missing the foundational architecture. True scalability in AI isn't just about more GPUs; it's about structured data, asynchronous processing, and modular design."
+  },
+  {
+    "id": 2,
+    "title": "Designing Multi-Tenant Systems That Don\u2019t Break",
+    "date": "October 22, 2025",
+    "excerpt": "Decoupling data and domain logic for long-term scalability.",
+    "content": "The choice between a shared database, sharding, or database-per-tenant has cascading consequences for cost, performance, and security. Here's how to make the right decision."
+  }
+]

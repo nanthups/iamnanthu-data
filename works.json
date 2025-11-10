@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Intelligent Scheduling Platform",
+    "summary": "AI-powered workforce scheduling and optimization for care agencies.",
+    "details": "Built with NestJS, TensorFlow, and AWS. Achieved 74% reduction in scheduling conflicts.",
+    "stack": [
+      "NestJS",
+      "PostgreSQL",
+      "TensorFlow",
+      "AWS ECS"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Document Understanding Platform",
+    "summary": "AI-based document ingestion, classification, and retrieval using vector embeddings.",
+    "stack": [
+      "FastAPI",
+      "LangChain",
+      "Qdrant",
+      "S3"
+    ]
+  }
+]
